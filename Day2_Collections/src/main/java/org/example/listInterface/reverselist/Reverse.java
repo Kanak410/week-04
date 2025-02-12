@@ -13,13 +13,19 @@ public class Reverse {
                 right--;
             }
         }
-        public static void reverseLinked(LinkedList<Integer>linkedList){
-            int data;
-            int next;
 
+        // Reverse a LinkedList without using built-in methods
+        public static void reverseLinkedList(LinkedList<Integer> list) {
+            int left = 0, right = list.size() - 1;
+            while (left < right) {
+                // Swap elements
+                int temp = list.get(left);
+                list.set(left, list.get(right));
+                list.set(right, temp);
+                left++;
+                right--;
+            }
         }
-
-
 
         public static void main(String[] args) {
             // Example with ArrayList
@@ -31,7 +37,7 @@ public class Reverse {
             // Example with LinkedList
             LinkedList<Integer> linkedList = new LinkedList<>(Arrays.asList(1, 2, 3, 4, 5));
             System.out.println("Original LinkedList: " + linkedList);
-
+            reverseLinkedList(linkedList);
             System.out.println("Reversed LinkedList: " + linkedList);
         }
     }
