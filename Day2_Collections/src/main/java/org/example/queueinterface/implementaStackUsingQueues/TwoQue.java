@@ -20,7 +20,7 @@ public class TwoQue {
     public int pop(){
         return q1.poll();
     }
-  
+
     public boolean isEmpty(){
         return q1.isEmpty();
     }
