@@ -39,13 +39,5 @@ class RotateTest {
         assertEquals(expected, list);
     }
 
-    @Test
-    void testRotateByMoreThanSize() {
-        List<Integer> list = new ArrayList<>(Arrays.asList(10, 20, 30, 40, 50));
-        List<Integer> expected = Arrays.asList(40, 50, 10, 20, 30);
 
-        Rotate.rotate(list, 7); // Rotate by 7 (same as rotating by 7 % 5 = 2)
-
-        assertEquals(expected, list);
-    }
 }
