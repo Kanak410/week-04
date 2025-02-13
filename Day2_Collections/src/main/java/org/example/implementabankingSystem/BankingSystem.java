@@ -26,7 +26,7 @@ class BankingSystem {
         System.out.println("Accounts: " + accounts);
         System.out.println("Sorted Accounts: " + sortedAccounts);
     }
-    
+
     public static void main(String[] args) {
         BankingSystem bank = new BankingSystem();
         bank.addAccount("123", 5000);
