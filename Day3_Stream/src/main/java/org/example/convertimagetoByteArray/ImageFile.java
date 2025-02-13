@@ -1,4 +1,4 @@
-package com.bytearray;
+package org.example.convertimagetoByteArray;
 
 import java.io.*;
 import java.nio.file.Files;
