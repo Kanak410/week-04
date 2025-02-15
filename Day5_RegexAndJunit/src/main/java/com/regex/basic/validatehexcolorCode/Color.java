@@ -1,4 +1,4 @@
-package com.regex.validatehexcolorCode;
+package com.regex.basic.validatehexcolorCode;
 
 import java.util.Scanner;
 import java.util.regex.Pattern;

@@ -1,4 +1,4 @@
-package com.regex.validateaUsername;
+package com.regex.basic.validateaUsername;
 import java.util.regex.*;
 import java.util.Scanner;
 public class Check {

@@ -1,4 +1,5 @@
-package com.regex.licenseplateNumber;
+package com.regex.basic.licenseplateNumber;
+
 import java.util.Scanner;
 import java.util.regex.*;
 public class Number {
@@ -14,3 +15,4 @@ public class Number {
 
     }
 }
+
