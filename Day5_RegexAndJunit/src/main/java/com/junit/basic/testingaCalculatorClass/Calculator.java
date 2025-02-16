@@ -1,4 +1,4 @@
-package com.junit.testingaCalculatorClass;
+package com.junit.basic.testingaCalculatorClass;
 
 public class Calculator {
     public int add(int a, int b) {
