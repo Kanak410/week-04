@@ -26,5 +26,5 @@ class ValueTest {
         assertEquals(expectedValues, Value.extractCurrencyValues(text));
     }
 
-    
+
 }
