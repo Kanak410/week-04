@@ -19,5 +19,5 @@ public class DateFormatterTest {
         assertEquals("Invalid Date", DateFormatter.formatDate("15-02-2025"), "Wrong format (dd-MM-yyyy) should return 'Invalid Date'");
     }
 
-   
+
 }
