@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class CustomObjectMapperTest {
 
-   
+
 
     // Test for type mismatch (e.g., passing a String for an integer field)
     @Test
